@@ -74,38 +74,40 @@ int main()
         b[i] = ((float)rand() / (float)(RAND_MAX)) * 1000;
     }
 
+    float flop = 440 * pow(10, -6);
+
     start = clock();
     sum = internal_dot_product_step_1(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("Step 1: %f, %f, %f\n", sum, cpu_time_used, 440/cpu_time_used);
+    printf("Step 1: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
 
     start = clock();
     sum = internal_dot_product_step_2(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("Step 2: %f, %f, %f\n", sum, cpu_time_used, 440/cpu_time_used);
+    printf("Step 2: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
 
 
     start = clock();
     sum = internal_dot_product_step_3(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("Step 3: %f, %f, %f\n", sum, cpu_time_used, 440/cpu_time_used);
+    printf("Step 3: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
 
 
     start = clock();
     sum = internal_dot_product_step_4(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("Step 4: %f, %f, %f\n", sum, cpu_time_used, 440/cpu_time_used);
+    printf("Step 4: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
 
 
     start = clock();
     sum = internal_dot_product_step_5(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("Step 5: %f, %f, %f\n", sum, cpu_time_used, 440/cpu_time_used);
+    printf("Step 5: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
 
 
     free(a);

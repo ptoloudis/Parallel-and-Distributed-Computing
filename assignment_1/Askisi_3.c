@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
+#include <unistd.h>
 
 #define N 16
 
@@ -104,6 +105,7 @@ int main()
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     flops = (3*N)/cpu_time_used;
     printf("Time for 1: %f, %f\n" , cpu_time_used, flops);
+    sleep(1);
 
     start = clock();
     product_of_tables_2(a, b, sum);
@@ -111,6 +113,7 @@ int main()
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;  
     flops = (3*N)/cpu_time_used;
     printf("Time for 2: %f, %f\n" , cpu_time_used, flops);
+    sleep(1);
 
     start = clock();
     product_of_tables_3(a, b, sum);
@@ -118,6 +121,7 @@ int main()
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     flops = (3*N)/cpu_time_used;
     printf("Time for 3: %f, %f\n" , cpu_time_used, flops);
+    sleep(1);
 
     start = clock();
     product_of_tables_4(a, b, sum);
@@ -125,6 +129,7 @@ int main()
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     flops = (3*N)/cpu_time_used;
     printf("Time for 4: %f, %f\n" , cpu_time_used, flops);
+    sleep(1);
 
     start = clock();
     product_of_tables_5(a, b, sum);
