@@ -98,12 +98,13 @@ int main()
 
     clock_t start, end;
     double cpu_time_used, flops;
+    float flop = (3*N) * pow(10, -6);
 
     start = clock();
     product_of_tables_1(a, b, sum);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    flops = (3*N)/cpu_time_used;
+    flops = flop/cpu_time_used;
     printf("Time for 1: %f, %f\n" , cpu_time_used, flops);
     sleep(1);
 
@@ -111,7 +112,7 @@ int main()
     product_of_tables_2(a, b, sum);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;  
-    flops = (3*N)/cpu_time_used;
+    flops = flop/cpu_time_used;
     printf("Time for 2: %f, %f\n" , cpu_time_used, flops);
     sleep(1);
 
@@ -119,7 +120,7 @@ int main()
     product_of_tables_3(a, b, sum);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    flops = (3*N)/cpu_time_used;
+    flops = flop/cpu_time_used;
     printf("Time for 3: %f, %f\n" , cpu_time_used, flops);
     sleep(1);
 
@@ -127,7 +128,7 @@ int main()
     product_of_tables_4(a, b, sum);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    flops = (3*N)/cpu_time_used;
+    flops = flop/cpu_time_used;
     printf("Time for 4: %f, %f\n" , cpu_time_used, flops);
     sleep(1);
 
@@ -135,10 +136,8 @@ int main()
     product_of_tables_5(a, b, sum);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-    flops = (3*N)/cpu_time_used;
+    flops = flop/cpu_time_used;
     printf("Time for 5: %f, %f\n" , cpu_time_used, flops);
 
-
-    
     return 0;
 }
