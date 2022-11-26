@@ -19,6 +19,8 @@ run_askisi3:
 		./askisi3 ; \
     done
 
+run_all: clean Askisi2 Askisi3 run_askisi2 run_askisi3
+
 clean:
 	rm -f askisi2
 	rm -f askisi3

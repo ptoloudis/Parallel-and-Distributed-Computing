@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <math.h>
 #include <time.h>
 
@@ -81,26 +82,28 @@ int main()
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("Step 1: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
+    sleep(1);
 
     start = clock();
     sum = internal_dot_product_step_2(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("Step 2: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
-
+    sleep(1);
 
     start = clock();
     sum = internal_dot_product_step_3(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("Step 3: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
-
+    sleep(1);
 
     start = clock();
     sum = internal_dot_product_step_4(a, b);
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("Step 4: %f, %f, %f\n", sum, cpu_time_used, flop/cpu_time_used);
+    sleep(1);
 
 
     start = clock();
