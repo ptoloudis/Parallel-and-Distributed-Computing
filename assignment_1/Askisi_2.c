@@ -7,6 +7,16 @@
 
 #define N 220
 
+/**
+ * > The function `internal_dot_product_step_N` takes two arrays of floats, `a` and `b`, and returns
+ * the dot product of the two arrays
+ * 
+ * @param a the first vector
+ * @param b the second vector
+ * 
+ * @return The dot product of the two vectors.
+ */
+
 float  internal_dot_product_step_1(float  *a, float  *b)
 {
     int i;

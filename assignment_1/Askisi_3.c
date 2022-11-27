@@ -6,6 +6,17 @@
 
 #define N 16
 
+/**
+ * > The function takes two matrices, `a` and `b`, and computes the product of the two matrices,
+ * storing the result in `sum`
+ * 
+ * @param a pointer to the first matrix
+ * @param b pointer to the second matrix
+ * @param sum the result of the product of the two matrices
+ * 
+ * @return a pointer to a void.
+ */
+
 void *product_of_tables_1(float *a, float *b, float *sum)
 {
     int i, j, l;
