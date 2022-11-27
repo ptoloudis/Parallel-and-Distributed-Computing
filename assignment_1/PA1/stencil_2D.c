@@ -51,11 +51,14 @@ int main(int argc, char **argv) {
    }
 
    // Initialization
+   #pragma omp parallel
+   #pragma omp for
    for ( i=2 ; i < N-2 ; i++ ) {
       for ( j=2 ; j < N-2 ; j++ ) {
          prev(i,j) = 0.0;
       }
    }
+   #pragma omp for
    for ( i=0 ; i < N ; i++ ) {
       prev(i  , 0  )  = INIT_VALUE;  prev(i  , 1  )  = INIT_VALUE;
       prev(i  , N-1)  = INIT_VALUE;  prev(i  , N-2)  = INIT_VALUE;
@@ -74,10 +77,12 @@ int main(int argc, char **argv) {
    // Computation
    t = 0;
 
+   #pragma omp parallel
    while ( t < MAX_ITERATION) {
 
       // Computation
 
+      #pragma omp for
       for ( i=2 ; i < N-2 ; i++ ) {
          for ( j=2 ; j < N-2 ; j++ ) {
             cur(i,j) = (prev(i-2,j)+prev(i-1,j)+prev(i+1,j)+prev(i+2,j)+

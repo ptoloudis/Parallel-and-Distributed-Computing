@@ -48,6 +48,8 @@ int main(int argc, char **argv) {
    }
 
    // Initialization
+   #pragma opm parallel 
+   #pragma opm for
    for ( i=1 ; i < N-1 ; i++ ) {
          prev[i] = 0.0;
       }
@@ -60,31 +62,35 @@ int main(int argc, char **argv) {
    initialize_timer();
    start_timer();
 
+
    // Computation
-   t = 0;
+   
+    t = 0;
 
+    #pragma omp parallel
+    while ( t < MAX_ITERATION) {
+        
+        // Computation
+        #pragma omp for
+        for ( i=2 ; i < N-2 ; i++ ) {
+                cur[i] = (prev[i-2]+prev[i-1]+prev[i]+prev[i+1]+prev[i+2])/5;
+        }
 
-   while ( t < MAX_ITERATION) {
+        {
+        temp = prev;
+        prev = cur;
+        cur  = temp;
+        t++;
+        }
+    }
 
-      // Computation
-      for ( i=2 ; i < N-2 ; i++ ) {
-            cur[i] = (prev[i-2]+prev[i-1]+prev[i]+prev[i+1]+prev[i+2])/5;
-       }
+    stop_timer();
+    time = elapsed_time();
 
-      {
-      temp = prev;
-      prev = cur;
-      cur  = temp;
-      t++;
-      }
-   }
+    printResult(prev, N);
 
-   stop_timer();
-   time = elapsed_time();
-
-   printResult(prev, N);
-
-   printf("Data size : %d  , #iterations : %d , time : %lf sec\n", N, t, time);
+    printf("Data size : %d  , #iterations : %d , time : %lf sec\n", N, t, time);
+    
 }
 
 void printResult(double *data, int size) {
@@ -99,4 +105,3 @@ void printResult(double *data, int size) {
   
    return;
 }
-
