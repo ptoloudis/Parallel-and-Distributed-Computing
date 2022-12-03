@@ -89,8 +89,7 @@ int main(int argc, char **argv) {
 
     printResult(prev, N);
 
-    printf("Data size : %d  , #iterations : %d , time : %lf sec\n", N, t, time);
-    
+    printf("Data size : %d  , #iterations : %d , time : %lf sec\n", N, t, time);  
 }
 
 void printResult(double *data, int size) {

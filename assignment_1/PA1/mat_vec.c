@@ -43,6 +43,8 @@ int main(int argc, char **argv) {
    b    = (double *)malloc(size);
 
    /* Initialize */
+   #pragma omp parallel
+   #pragma omp for
    for ( i=0 ; i < N ; i++ ) {
       for ( j=0 ; j < M ; j++ ) {
          A(i,j) = i + j;
@@ -74,5 +76,6 @@ int main(int argc, char **argv) {
    }
 
    printf("elapsed time = %lf\n", time);
+   fprintf(stderr, "elapsed time = %lf\n", time);
    return 0;
 }

@@ -1,27 +1,28 @@
+/*********************************
+ * Ergasia 1 – Askhsh 4  
+ * Eponymo Onoma : Apostolopoulou Ioanna
+ * - AEM: 03121
+ * Eponymo Onoma : Toloudis Panagiotis
+ * - AEM: 02995
+ *********************************/
 // Program that calculates the product of 1D stencil
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
+#include <time.h>
 
-//#define SIZE 100000
+#define SIZE 100000
 
-int main(int argc, char *argv[])
-{
-    int SIZE;
-    if (argc > 1)
-    {
-        SIZE = atoi(argv[1]);
-    }
-    else
-    {
-        printf("Usage : %s [N]\n", argv[0]);
-        exit(1);
-    }
-    
+int main() 
+{ 
     
 
     int size, rank, i, size_1;
+    clock_t start, end;
+    double cpu_time_used; 
+
+    start = clock();
     MPI_Init(NULL, NULL);
 
     int *array, *array_1;
@@ -69,7 +70,7 @@ int main(int argc, char *argv[])
 
         // Gathers the data from all computations
         MPI_Reduce(&product, &dot_product, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
-    	printf("\ndot product is %d\n", dot_product);
+    	// printf("\ndot product is %d\n", dot_product);
 	}
     else
     {
@@ -91,10 +92,13 @@ int main(int argc, char *argv[])
         // Gathers the data from all computations
         MPI_Reduce(&product, &dot_product, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
 
-        printf("\nmy rank :%d and product:%d\n",rank,product);
+        // printf("\nmy rank :%d and product:%d\n",rank,product);
 	}
 
-    	 	
     MPI_Finalize();
+
+    end = clock();
+    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+    printf("Time taken: %f\n", cpu_time_used);
     return 0;
 }

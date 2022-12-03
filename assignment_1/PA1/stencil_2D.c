@@ -104,6 +104,7 @@ int main(int argc, char **argv) {
    time = elapsed_time();
 
    printf("Data : %d by %d , Iterations : %d , Time : %lf sec\n", N, N, t, time);
+   fprintf(stderr, "Data : %d by %d , Iterations : %d , Time : %lf sec\n", N, N, t, time);
    printf("Final data\n");
    printMatrix(prev, N);
 
