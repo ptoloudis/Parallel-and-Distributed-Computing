@@ -1,5 +1,13 @@
 # !/bin/sh
 
+# /*********************************
+#  * Ergasia 1 – Askhsh 4  
+#  * Eponymo Onoma : Apostolopoulou Ioanna
+#  * - AEM: 03121
+#  * Eponymo Onoma : Toloudis Panagiotis
+#  * - AEM: 02995
+#  *********************************/
+
 echo"\nRunning Makefile"
 make
 cd PA1

@@ -5,6 +5,7 @@
  * Eponymo Onoma : Toloudis Panagiotis
  * - AEM: 02995
  *********************************/
+
 // Program that calculates the product of 1D stencil
 
 #include <stdio.h>
