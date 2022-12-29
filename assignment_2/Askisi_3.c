@@ -4,7 +4,8 @@
 #include <math.h>
 #include <time.h>
 #include <complex.h>
- 
+#include <omp.h> 
+
 float PI;
 typedef float complex cplx;
 
@@ -14,40 +15,46 @@ void iterative_fft(cplx buf[], int size)
     unsigned int N = size , k = N, n;
 	double thetaT = 3.14159265358979323846264338328L / N;
 	cplx phiT = CMPLX(cos(thetaT), -sin(thetaT)), T;
-    while (k > 1)
+	#pragma omp parallel
 	{
-		n = k;
-		k >>= 1;
-		phiT = phiT * phiT;
-		T = 1.0L;
-		for (unsigned int l = 0; l < k; l++)
+		while (k > 1)
 		{
-			for (unsigned int a = l; a < N; a += n)
+			n = k;
+			k >>= 1;
+			phiT = phiT * phiT;
+			T = 1.0L;
+			#pragma omp for
+			for (unsigned int l = 0; l < k; l++)
 			{
-				unsigned int b = a + k;
-				cplx t = buf[a] - buf[b];
-				buf[a] += buf[b];
-				buf[b] = t * T;
+				for (unsigned int a = l; a < N; a += n)
+				{
+					unsigned int b = a + k;
+					cplx t = buf[a] - buf[b];
+					buf[a] += buf[b];
+					buf[b] = t * T;
+				}
+				T *= phiT;
 			}
-			T *= phiT;
 		}
-    }
-	// Decimate
-	unsigned int m = (unsigned int)log2(N);
-	for (unsigned int a = 0; a < N; a++)
-	{
-		unsigned int b = a;
-		// Reverse bits
-		b = (((b & 0xaaaaaaaa) >> 1) | ((b & 0x55555555) << 1));
-		b = (((b & 0xcccccccc) >> 2) | ((b & 0x33333333) << 2));
-		b = (((b & 0xf0f0f0f0) >> 4) | ((b & 0x0f0f0f0f) << 4));
-		b = (((b & 0xff00ff00) >> 8) | ((b & 0x00ff00ff) << 8));
-		b = ((b >> 16) | (b << 16)) >> (32 - m);
-		if (b > a)
+		// Decimate
+		unsigned int m = (unsigned int)log2(N);
+		
+		#pragma omp for
+		for (unsigned int a = 0; a < N; a++)
 		{
-			cplx t = buf[a];
-			buf[a] = buf[b];
-			buf[b] = t;
+			unsigned int b = a;
+			// Reverse bits
+			b = (((b & 0xaaaaaaaa) >> 1) | ((b & 0x55555555) << 1));
+			b = (((b & 0xcccccccc) >> 2) | ((b & 0x33333333) << 2));
+			b = (((b & 0xf0f0f0f0) >> 4) | ((b & 0x0f0f0f0f) << 4));
+			b = (((b & 0xff00ff00) >> 8) | ((b & 0x00ff00ff) << 8));
+			b = ((b >> 16) | (b << 16)) >> (32 - m);
+			if (b > a)
+			{
+				cplx t = buf[a];
+				buf[a] = buf[b];
+				buf[b] = t;
+			}
 		}
 	}
 }
@@ -65,9 +72,13 @@ int main()
 {
 	PI = 3.14159265;
 	cplx buf[] = {1, 1, 1, 1, 0, 0, 0, 0};
- 
+	clock_t start, end;
+	
 	show("Data: ", buf);
+	start = clock();
 	iterative_fft(buf, 8);
+	end = clock();
+	printf("time: %f", (double)(end - start) / CLOCKS_PER_SEC);
 	show("\nFFT: ", buf);
  
 	return 0;

@@ -32,14 +32,22 @@ int main(int argc, char *argv[])
 	const double ref = 0.73864299803689018;
 	double res = 0;
 	double t0, t1;
+	// double erand48(unsigned short xsubi[3]);
+	unsigned short buffer[3];
+	buffer[0] = 0;
+	buffer[1] = 0;
 	unsigned long i;
 
 	srand48(tseed);
 
 	t0 = omp_get_wtime();
+	#pragma omp parallel private(buffer) shared(res)
+	#pragma omp for reduction(+:res) nowait
 	for (i = 0; i < n; i++) {
+		
+		buffer[2] = omp_get_thread_num();
 		double xi;
-		xi = drand48();
+		xi = erand48(buffer);
 		res += f(xi);
 	}
 	res *= h;
