@@ -1,2 +1,0 @@
-mc_serial: Result=0.7386429349371596 Error=6.309973e-08 Rel.Error=8.542656e-08 Time=155.223898 seconds
-mc_parallel: Result=0.7342213733162883 Error=4.421625e-03 Rel.Error=5.986146e-03 Time=19.617348 seconds

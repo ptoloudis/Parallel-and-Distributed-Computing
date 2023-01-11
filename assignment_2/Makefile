@@ -9,6 +9,9 @@ Askisi2:
 Askisi3:  
 	gcc $(CFLAGS) Askisi_3.c -o askisi3 -lm -fopenmp
 
+myfftw:
+	gcc myfftw.c -o myfftw -lm -lfftw3
+
 clean:
 	rm -f askisi2
 	rm -f askisi3
