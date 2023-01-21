@@ -31,7 +31,6 @@ int print_sparse_csr(const Sparse_CSR_t* A_csr)
     return EXIT_SUCCESS;
 }
 
-
 int free_sparse_csr(Sparse_CSR_t* A_csr) 
 {
     free(A_csr->row_ptrs);

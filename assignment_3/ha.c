@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <omp.h>
+#include <time.h>
 #include "header.h"
 
 
@@ -25,7 +26,6 @@ int create_sparse_csr(const double* A, int n_rows, int n_cols, int n_nz, Sparse_
         #pragma omp critical (nz_id)
             {
                A_csr->row_ptrs[i] = nz_id;
-               printf("%d\n\n", nz_id);
             }
         #pragma omp parallel
         #pragma omp for private(nz_loc)
@@ -71,42 +71,64 @@ int matrix_vector_sparse_csr(const Sparse_CSR_t* A_csr, const double* vec, doubl
 
 int main (int argc, char** argv) 
 {
-    int n_rows = 5;
-    int n_cols = 5;
-    int n_nz = 12;
+    int n_rows, n_cols, n_nz;
+    if (argc == 4)
+    {
+        n_rows = atoi(argv[1]);
+        n_cols = atoi(argv[2]);
+        n_nz = atoi(argv[3]);
+    } 
+    else
+    {
+        printf("Usage: %s N M n_nz\n", argv[0]);
+        return EXIT_FAILURE;
+    }
+    
+    double *A  = (double*) malloc(n_rows * n_cols * sizeof(double));
+    double *x  = (double*) malloc(n_cols * sizeof(double));
+    double *Ax = (double*) malloc(n_cols * sizeof(double));
+    
+    for (int i=0; i<n_rows; ++i) 
+    {
+        x[i] = 1.0;
+    }
 
-    double A[] = {
-        1,  0,  0,  2,  0,
-        3,  4,  2,  5,  0,
-        5,  0,  0,  8, 17,
-        0,  0, 10, 16,  0,
-        0,  0,  0,   0, 14
-    };
-    double x[] = {
-        1,
-        2,
-        3,
-        4,
-        5
-    };
-    double Ax[5];
+    int rows, cols;
+    double val;
+    A = calloc(n_rows*n_cols, sizeof(double));
+    for (size_t k = 0; k < n_nz; k++)
+    {
+        scanf("%d %d %lf", &rows, &cols, &val);
+        rows--;
+        cols--;
+        A[rows*n_cols + cols] = val;
+    }   
 
     // Starts here
     Sparse_CSR_t A_csr;
 
     create_sparse_csr(A, n_rows, n_cols, n_nz, &A_csr);
 
-    print_sparse_csr(&A_csr);
+    // print_sparse_csr(&A_csr);
 
+
+    clock_t start = clock();
     matrix_vector_sparse_csr(&A_csr, x, Ax);
+    clock_t end = clock();
+    double time_spent = (double)(end - start);
 
-    for (int i=0; i<n_rows; ++i) 
-    {
-        printf("%02.2f\n", Ax[i]);
-    }
+    printf("Time spent: %f\n", time_spent);
+    // for (int i=0; i<n_rows; ++i) 
+    // {
+    //     printf("%02.2f\n", Ax[i]);
+    // }
 
+    free(A);
+    free(x);
+    free(Ax);
     free_sparse_csr(&A_csr);
 
     return EXIT_SUCCESS;
 }
+
 
