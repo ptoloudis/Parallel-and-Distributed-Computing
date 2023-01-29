@@ -1,3 +1,10 @@
+/*********************************
+ * Ergasia 3 – Askhsh 2 , 3 
+ * Eponymo Onoma : Apostolopoulou Ioanna
+ * - AEM: 03121
+ * Eponymo Onoma : Toloudis Panagiotis
+ * - AEM: 02995
+ *********************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
