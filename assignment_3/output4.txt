@@ -1,0 +1,2955 @@
+Assignment 3
+Run: Make
+gcc -Wall -g  askisi_2.c -o askisi_2 header.h
+gcc -Wall -g  askisi_3.c -o askisi_3 header.h -fopenmp
+gcc -Wall -g  askisi_4.c -o askisi_4 header.h -fopenmp -lm
+Run: Generate Data
+Askisi 4
+OMP_NUM_THREADS=1
+Iteration 1
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.067834 seconds
+WARNING: solution did not converge
+Iteration 2
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.074312 seconds
+WARNING: solution did not converge
+Iteration 3
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.069380 seconds
+WARNING: solution did not converge
+Iteration 4
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.067641 seconds
+WARNING: solution did not converge
+Iteration 5
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.069090 seconds
+WARNING: solution did not converge
+Iteration 6
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.067245 seconds
+WARNING: solution did not converge
+Iteration 7
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.067532 seconds
+WARNING: solution did not converge
+Iteration 8
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.068199 seconds
+WARNING: solution did not converge
+Iteration 9
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.068366 seconds
+WARNING: solution did not converge
+Iteration 10
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.069372 seconds
+WARNING: solution did not converge
+Iteration 11
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.074182 seconds
+WARNING: solution did not converge
+Iteration 12
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.067652 seconds
+WARNING: solution did not converge
+Iteration 13
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.069011 seconds
+WARNING: solution did not converge
+Iteration 14
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.069709 seconds
+WARNING: solution did not converge
+Iteration 15
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.070427 seconds
+WARNING: solution did not converge
+OMP_NUM_THREADS=2
+Iteration 1
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577264.48, diff=288642.38
+Iter=1, residual=577204.13, diff=288620.94
+Iter=2, residual=577122.17, diff=288580.39
+Iter=3, residual=577279.42, diff=288613.07
+Iter=4, residual=577102.83, diff=288574.54
+Iter=5, residual=577380.63, diff=288574.79
+Iter=6, residual=577088.64, diff=288563.91
+Iter=7, residual=577094.09, diff=288565.92
+Iter=8, residual=577099.24, diff=288545.70
+Iter=9, residual=577015.32, diff=288529.40
+Iter=10, residual=577046.38, diff=288519.06
+Iter=11, residual=576984.17, diff=288489.29
+Iter=12, residual=581315.57, diff=288509.72
+Iter=13, residual=572280.25, diff=288497.24
+Iter=14, residual=570422.69, diff=288469.31
+Iter=15, residual=581115.91, diff=288484.34
+Iter=16, residual=573675.88, diff=288478.19
+Iter=17, residual=581825.92, diff=288472.17
+Iter=18, residual=581920.76, diff=288466.42
+Iter=19, residual=580100.60, diff=288455.85
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.043219 seconds
+WARNING: solution did not converge
+Iteration 2
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577266.36, diff=288642.58
+Iter=1, residual=577138.01, diff=288621.34
+Iter=2, residual=577147.99, diff=288569.33
+Iter=3, residual=577246.70, diff=288599.87
+Iter=4, residual=577040.44, diff=288563.53
+Iter=5, residual=577055.79, diff=288563.25
+Iter=6, residual=577109.40, diff=288542.16
+Iter=7, residual=577069.66, diff=288565.98
+Iter=8, residual=576999.03, diff=288551.04
+Iter=9, residual=577126.34, diff=288515.31
+Iter=10, residual=577000.49, diff=288529.79
+Iter=11, residual=577010.62, diff=288500.24
+Iter=12, residual=576952.83, diff=288448.37
+Iter=13, residual=577003.70, diff=288486.10
+Iter=14, residual=576993.46, diff=288513.05
+Iter=15, residual=576997.29, diff=288465.45
+Iter=16, residual=576927.41, diff=288478.19
+Iter=17, residual=576879.60, diff=288479.61
+Iter=18, residual=576876.63, diff=288466.42
+Iter=19, residual=576853.05, diff=288460.61
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.045357 seconds
+WARNING: solution did not converge
+Iteration 3
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=563204.04, diff=288620.57
+Iter=1, residual=572056.18, diff=288365.88
+Iter=2, residual=565484.66, diff=288580.28
+Iter=3, residual=560411.62, diff=288339.60
+Iter=4, residual=562525.96, diff=288368.20
+Iter=5, residual=572649.62, diff=288509.32
+Iter=6, residual=561477.10, diff=288514.26
+Iter=7, residual=568782.81, diff=288539.13
+Iter=8, residual=524187.63, diff=288554.65
+Iter=9, residual=580155.88, diff=288526.56
+Iter=10, residual=543519.06, diff=288493.80
+Iter=11, residual=557602.04, diff=288518.56
+Iter=12, residual=563604.63, diff=288483.62
+Iter=13, residual=577661.90, diff=288497.30
+Iter=14, residual=575136.87, diff=288489.84
+Iter=15, residual=567027.67, diff=288505.31
+Iter=16, residual=550052.06, diff=288467.60
+Iter=17, residual=552045.49, diff=288477.12
+Iter=18, residual=566190.72, diff=288490.74
+Iter=19, residual=576946.24, diff=288461.23
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.040688 seconds
+WARNING: solution did not converge
+Iteration 4
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=545402.11, diff=288638.66
+Iter=1, residual=583812.18, diff=288626.73
+Iter=2, residual=574758.25, diff=288592.62
+Iter=3, residual=578097.59, diff=288557.32
+Iter=4, residual=581897.97, diff=288554.75
+Iter=5, residual=580338.42, diff=288563.25
+Iter=6, residual=576994.58, diff=288521.32
+Iter=7, residual=577178.08, diff=288588.99
+Iter=8, residual=577028.92, diff=288523.44
+Iter=9, residual=577009.90, diff=288526.16
+Iter=10, residual=576901.72, diff=288518.73
+Iter=11, residual=577008.29, diff=288522.52
+Iter=12, residual=576941.43, diff=288493.05
+Iter=13, residual=576967.49, diff=288497.30
+Iter=14, residual=577028.17, diff=288480.14
+Iter=15, residual=576957.60, diff=288495.29
+Iter=16, residual=576874.78, diff=288478.19
+Iter=17, residual=576959.36, diff=288480.32
+Iter=18, residual=576943.79, diff=288478.21
+Iter=19, residual=576936.70, diff=288438.65
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.044044 seconds
+WARNING: solution did not converge
+Iteration 5
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=565488.79, diff=288656.68
+Iter=1, residual=573774.04, diff=288621.95
+Iter=2, residual=558823.40, diff=288602.06
+Iter=3, residual=581350.91, diff=288590.68
+Iter=4, residual=567355.60, diff=288562.98
+Iter=5, residual=577175.23, diff=288326.45
+Iter=6, residual=571090.66, diff=288526.84
+Iter=7, residual=571176.52, diff=288526.97
+Iter=8, residual=566263.81, diff=288536.09
+Iter=9, residual=562701.47, diff=288503.30
+Iter=10, residual=556230.69, diff=288499.51
+Iter=11, residual=579666.27, diff=288077.93
+Iter=12, residual=562786.65, diff=288320.16
+Iter=13, residual=538216.65, diff=288464.58
+Iter=14, residual=560247.74, diff=288490.92
+Iter=15, residual=510500.23, diff=288485.15
+Iter=16, residual=542354.27, diff=288435.91
+Iter=17, residual=562902.24, diff=288476.97
+Iter=18, residual=551546.94, diff=288481.07
+Iter=19, residual=533671.43, diff=288419.47
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.039556 seconds
+WARNING: solution did not converge
+Iteration 6
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=585564.02, diff=288495.72
+Iter=1, residual=585338.33, diff=288621.01
+Iter=2, residual=584250.62, diff=288602.06
+Iter=3, residual=582295.13, diff=288587.18
+Iter=4, residual=594495.31, diff=288574.50
+Iter=5, residual=590277.10, diff=288563.25
+Iter=6, residual=575627.92, diff=287560.07
+Iter=7, residual=591339.09, diff=288543.61
+Iter=8, residual=584865.84, diff=288542.97
+Iter=9, residual=578793.32, diff=288526.56
+Iter=10, residual=586113.87, diff=288518.73
+Iter=11, residual=578183.21, diff=288511.29
+Iter=12, residual=591858.97, diff=288493.30
+Iter=13, residual=581289.51, diff=288486.48
+Iter=14, residual=577192.60, diff=288490.71
+Iter=15, residual=582411.75, diff=288494.08
+Iter=16, residual=585189.38, diff=288456.77
+Iter=17, residual=582808.35, diff=288036.44
+Iter=18, residual=583858.09, diff=288455.55
+Iter=19, residual=577628.17, diff=288449.89
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.039550 seconds
+WARNING: solution did not converge
+Iteration 7
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577239.93, diff=288653.48
+Iter=1, residual=576077.18, diff=288554.41
+Iter=2, residual=576437.82, diff=288352.89
+Iter=3, residual=574559.99, diff=288454.00
+Iter=4, residual=575119.03, diff=288475.83
+Iter=5, residual=576210.71, diff=288493.76
+Iter=6, residual=574552.70, diff=288474.51
+Iter=7, residual=573081.47, diff=288526.20
+Iter=8, residual=576446.64, diff=288496.20
+Iter=9, residual=575781.60, diff=288468.15
+Iter=10, residual=574349.62, diff=288416.25
+Iter=11, residual=575303.61, diff=288422.12
+Iter=12, residual=573406.45, diff=288438.76
+Iter=13, residual=575211.89, diff=288424.72
+Iter=14, residual=574056.97, diff=288431.73
+Iter=15, residual=574067.18, diff=288363.48
+Iter=16, residual=574511.88, diff=288413.29
+Iter=17, residual=574279.45, diff=288446.35
+Iter=18, residual=575340.14, diff=288349.64
+Iter=19, residual=574183.69, diff=288099.36
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.042613 seconds
+WARNING: solution did not converge
+Iteration 8
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=576481.74, diff=288627.86
+Iter=1, residual=570374.54, diff=288623.74
+Iter=2, residual=579098.42, diff=288602.06
+Iter=3, residual=576167.16, diff=288163.46
+Iter=4, residual=575923.03, diff=288563.66
+Iter=5, residual=580235.83, diff=288563.25
+Iter=6, residual=571173.26, diff=288553.03
+Iter=7, residual=577047.01, diff=288544.63
+Iter=8, residual=578241.60, diff=288520.14
+Iter=9, residual=572716.07, diff=288518.70
+Iter=10, residual=572861.98, diff=288495.44
+Iter=11, residual=578212.62, diff=288513.64
+Iter=12, residual=571772.73, diff=288520.54
+Iter=13, residual=576413.78, diff=288497.30
+Iter=14, residual=572829.33, diff=288450.48
+Iter=15, residual=578617.12, diff=288484.34
+Iter=16, residual=588929.52, diff=288488.45
+Iter=17, residual=576073.43, diff=288379.53
+Iter=18, residual=576919.69, diff=288455.48
+Iter=19, residual=576879.18, diff=288474.64
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.039559 seconds
+WARNING: solution did not converge
+Iteration 9
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=519757.97, diff=288631.66
+Iter=1, residual=499168.75, diff=288622.91
+Iter=2, residual=535394.45, diff=288595.22
+Iter=3, residual=573792.83, diff=284489.35
+Iter=4, residual=574225.62, diff=284347.32
+Iter=5, residual=573446.59, diff=284865.64
+Iter=6, residual=574198.84, diff=284102.62
+Iter=7, residual=574301.49, diff=285117.21
+Iter=8, residual=574030.13, diff=284768.16
+Iter=9, residual=573327.34, diff=285295.86
+Iter=10, residual=573471.51, diff=284842.12
+Iter=11, residual=572688.50, diff=284791.12
+Iter=12, residual=574204.04, diff=285010.43
+Iter=13, residual=573677.05, diff=284620.85
+Iter=14, residual=574206.44, diff=284836.38
+Iter=15, residual=573114.77, diff=285036.86
+Iter=16, residual=573533.78, diff=285697.51
+Iter=17, residual=573888.84, diff=285059.34
+Iter=18, residual=574209.11, diff=284686.54
+Iter=19, residual=576835.48, diff=288427.87
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.049070 seconds
+WARNING: solution did not converge
+Iteration 10
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577268.27, diff=288653.48
+Iter=1, residual=577137.20, diff=288621.13
+Iter=2, residual=577197.34, diff=288591.10
+Iter=3, residual=577126.57, diff=288576.33
+Iter=4, residual=577054.37, diff=288574.49
+Iter=5, residual=577106.07, diff=288574.40
+Iter=6, residual=577086.71, diff=288564.26
+Iter=7, residual=577069.66, diff=288543.87
+Iter=8, residual=577008.39, diff=288523.85
+Iter=9, residual=576960.85, diff=288559.63
+Iter=10, residual=577032.63, diff=288529.94
+Iter=11, residual=576934.46, diff=288478.47
+Iter=12, residual=552947.12, diff=288468.86
+Iter=13, residual=567219.00, diff=288396.75
+Iter=14, residual=576945.00, diff=288481.41
+Iter=15, residual=576957.49, diff=288484.71
+Iter=16, residual=576967.17, diff=288467.08
+Iter=17, residual=577003.39, diff=288438.88
+Iter=18, residual=576895.90, diff=288443.81
+Iter=19, residual=576863.30, diff=288449.75
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.044315 seconds
+WARNING: solution did not converge
+Iteration 11
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577174.78, diff=288631.34
+Iter=1, residual=577245.53, diff=288621.01
+Iter=2, residual=577196.79, diff=288580.21
+Iter=3, residual=577174.46, diff=288564.77
+Iter=4, residual=577127.40, diff=288563.53
+Iter=5, residual=577149.69, diff=288552.17
+Iter=6, residual=577110.67, diff=288575.12
+Iter=7, residual=577008.30, diff=288564.49
+Iter=8, residual=577077.83, diff=288545.70
+Iter=9, residual=577042.70, diff=288515.67
+Iter=10, residual=577020.77, diff=288507.83
+Iter=11, residual=577009.37, diff=288511.68
+Iter=12, residual=576994.60, diff=288471.07
+Iter=13, residual=576962.35, diff=288508.33
+Iter=14, residual=576966.31, diff=288490.71
+Iter=15, residual=537238.50, diff=288462.79
+Iter=16, residual=564716.19, diff=288245.46
+Iter=17, residual=550600.18, diff=288472.22
+Iter=18, residual=556403.77, diff=288390.38
+Iter=19, residual=539343.21, diff=288428.96
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.044262 seconds
+WARNING: solution did not converge
+Iteration 12
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=573706.65, diff=288635.50
+Iter=1, residual=581943.25, diff=288619.42
+Iter=2, residual=575221.33, diff=288582.47
+Iter=3, residual=576711.18, diff=287975.21
+Iter=4, residual=567936.22, diff=288563.61
+Iter=5, residual=575252.90, diff=288563.25
+Iter=6, residual=568076.89, diff=288553.06
+Iter=7, residual=573410.19, diff=288543.61
+Iter=8, residual=569931.70, diff=288507.04
+Iter=9, residual=570213.18, diff=288526.56
+Iter=10, residual=568617.53, diff=288518.73
+Iter=11, residual=580497.21, diff=288465.18
+Iter=12, residual=577159.90, diff=288461.35
+Iter=13, residual=573972.59, diff=288438.42
+Iter=14, residual=576754.36, diff=288492.06
+Iter=15, residual=574105.28, diff=287912.03
+Iter=16, residual=582315.44, diff=288463.26
+Iter=17, residual=576815.68, diff=288472.22
+Iter=18, residual=575046.55, diff=288467.80
+Iter=19, residual=571161.91, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.037639 seconds
+WARNING: solution did not converge
+Iteration 13
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577243.32, diff=288655.95
+Iter=1, residual=577150.47, diff=288621.01
+Iter=2, residual=577121.72, diff=288587.50
+Iter=3, residual=577120.78, diff=288599.47
+Iter=4, residual=577126.49, diff=288535.63
+Iter=5, residual=577144.67, diff=288557.24
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577007.97, diff=288543.61
+Iter=8, residual=577090.41, diff=288523.89
+Iter=9, residual=577037.49, diff=288526.56
+Iter=10, residual=577072.41, diff=288499.08
+Iter=11, residual=576956.02, diff=288500.37
+Iter=12, residual=577043.98, diff=288508.88
+Iter=13, residual=576950.02, diff=288485.81
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576980.36, diff=288490.23
+Iter=16, residual=576966.31, diff=288481.58
+Iter=17, residual=576959.70, diff=288472.22
+Iter=18, residual=576838.59, diff=288474.25
+Iter=19, residual=576916.19, diff=288542.71
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.052447 seconds
+WARNING: solution did not converge
+Iteration 14
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=576193.81, diff=288579.50
+Iter=1, residual=573979.51, diff=288527.52
+Iter=2, residual=575634.37, diff=288545.27
+Iter=3, residual=576389.85, diff=288556.00
+Iter=4, residual=576922.79, diff=288518.39
+Iter=5, residual=575959.44, diff=288483.23
+Iter=6, residual=575773.53, diff=288486.10
+Iter=7, residual=574287.84, diff=288521.75
+Iter=8, residual=574670.87, diff=288522.11
+Iter=9, residual=576256.25, diff=288469.28
+Iter=10, residual=571583.66, diff=288398.19
+Iter=11, residual=574698.17, diff=288484.61
+Iter=12, residual=568763.73, diff=288309.90
+Iter=13, residual=575386.36, diff=288417.87
+Iter=14, residual=576332.20, diff=288426.07
+Iter=15, residual=575945.12, diff=288403.62
+Iter=16, residual=575957.94, diff=288425.97
+Iter=17, residual=576197.23, diff=288473.01
+Iter=18, residual=576924.90, diff=288467.62
+Iter=19, residual=576813.98, diff=288461.01
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.039876 seconds
+WARNING: solution did not converge
+Iteration 15
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=565126.49, diff=288642.60
+Iter=1, residual=536250.84, diff=288621.89
+Iter=2, residual=545247.40, diff=288162.00
+Iter=3, residual=536707.80, diff=288598.01
+Iter=4, residual=552995.01, diff=288503.44
+Iter=5, residual=560392.84, diff=288513.41
+Iter=6, residual=577021.59, diff=288556.92
+Iter=7, residual=576949.13, diff=288532.42
+Iter=8, residual=577133.67, diff=288558.10
+Iter=9, residual=577084.84, diff=288504.36
+Iter=10, residual=577001.19, diff=288529.60
+Iter=11, residual=577033.21, diff=288500.29
+Iter=12, residual=576995.87, diff=288492.92
+Iter=13, residual=576978.47, diff=288486.39
+Iter=14, residual=533037.73, diff=288464.90
+Iter=15, residual=538075.88, diff=288442.24
+Iter=16, residual=540662.10, diff=288460.03
+Iter=17, residual=544997.82, diff=288472.22
+Iter=18, residual=559449.11, diff=288455.57
+Iter=19, residual=561134.75, diff=288392.32
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.041879 seconds
+WARNING: solution did not converge
+OMP_NUM_THREADS=4
+Iteration 1
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=574249.42, diff=288561.16
+Iter=1, residual=572948.22, diff=288537.69
+Iter=2, residual=561093.84, diff=288547.70
+Iter=3, residual=573218.19, diff=288493.66
+Iter=4, residual=567385.13, diff=288512.03
+Iter=5, residual=567112.53, diff=288527.00
+Iter=6, residual=580950.80, diff=288525.66
+Iter=7, residual=576664.59, diff=288429.43
+Iter=8, residual=519455.43, diff=288182.27
+Iter=9, residual=536143.31, diff=288506.56
+Iter=10, residual=537881.75, diff=288475.15
+Iter=11, residual=541821.04, diff=288464.20
+Iter=12, residual=533848.52, diff=288114.14
+Iter=13, residual=523734.08, diff=288478.42
+Iter=14, residual=532083.76, diff=288447.76
+Iter=15, residual=518987.87, diff=288260.71
+Iter=16, residual=565048.16, diff=288468.48
+Iter=17, residual=554413.98, diff=288464.75
+Iter=18, residual=536663.96, diff=288472.37
+Iter=19, residual=543834.58, diff=288479.91
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.035145 seconds
+WARNING: solution did not converge
+Iteration 2
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=525964.59, diff=288734.94
+Iter=1, residual=523429.50, diff=288585.73
+Iter=2, residual=578163.20, diff=288460.36
+Iter=3, residual=573764.99, diff=288518.98
+Iter=4, residual=536147.27, diff=288512.23
+Iter=5, residual=550576.98, diff=288566.45
+Iter=6, residual=563333.54, diff=288430.07
+Iter=7, residual=542039.05, diff=288533.55
+Iter=8, residual=574398.74, diff=288495.20
+Iter=9, residual=554386.30, diff=288519.34
+Iter=10, residual=587622.94, diff=288474.49
+Iter=11, residual=526227.63, diff=288464.40
+Iter=12, residual=571754.15, diff=288443.45
+Iter=13, residual=562674.79, diff=288475.78
+Iter=14, residual=562601.08, diff=288515.55
+Iter=15, residual=565934.93, diff=288440.19
+Iter=16, residual=557004.72, diff=288446.16
+Iter=17, residual=565729.55, diff=288386.93
+Iter=18, residual=553659.34, diff=288430.74
+Iter=19, residual=566470.11, diff=288363.04
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.030031 seconds
+WARNING: solution did not converge
+Iteration 3
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=571247.89, diff=288515.11
+Iter=1, residual=569352.58, diff=288588.68
+Iter=2, residual=571962.02, diff=288431.33
+Iter=3, residual=568617.31, diff=288591.00
+Iter=4, residual=576963.81, diff=288444.85
+Iter=5, residual=577196.31, diff=288583.96
+Iter=6, residual=571875.30, diff=288747.76
+Iter=7, residual=570847.91, diff=288714.00
+Iter=8, residual=570289.37, diff=288558.19
+Iter=9, residual=571711.18, diff=288706.86
+Iter=10, residual=570302.94, diff=288496.19
+Iter=11, residual=574484.54, diff=288128.83
+Iter=12, residual=566514.47, diff=288299.44
+Iter=13, residual=568039.54, diff=288206.33
+Iter=14, residual=566478.83, diff=288491.32
+Iter=15, residual=576268.36, diff=288135.28
+Iter=16, residual=571616.00, diff=286028.38
+Iter=17, residual=571082.23, diff=285330.56
+Iter=18, residual=571789.48, diff=285436.00
+Iter=19, residual=572797.79, diff=285332.73
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.027776 seconds
+WARNING: solution did not converge
+Iteration 4
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=570916.94, diff=288622.12
+Iter=1, residual=567821.84, diff=288597.42
+Iter=2, residual=579418.67, diff=288627.15
+Iter=3, residual=570711.10, diff=288589.35
+Iter=4, residual=571239.36, diff=288577.21
+Iter=5, residual=552356.04, diff=288503.14
+Iter=6, residual=554729.83, diff=288473.45
+Iter=7, residual=563389.90, diff=287817.17
+Iter=8, residual=566505.59, diff=287989.49
+Iter=9, residual=563786.61, diff=287774.70
+Iter=10, residual=563527.50, diff=287836.19
+Iter=11, residual=565475.08, diff=287652.46
+Iter=12, residual=565659.88, diff=288017.72
+Iter=13, residual=574766.95, diff=288405.05
+Iter=14, residual=564105.63, diff=287623.59
+Iter=15, residual=565137.38, diff=287898.40
+Iter=16, residual=564268.44, diff=287679.98
+Iter=17, residual=562238.68, diff=287801.89
+Iter=18, residual=573537.48, diff=288401.62
+Iter=19, residual=574704.85, diff=288388.59
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.030179 seconds
+WARNING: solution did not converge
+Iteration 5
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=550300.61, diff=288574.52
+Iter=1, residual=526480.28, diff=288609.49
+Iter=2, residual=538008.42, diff=288600.19
+Iter=3, residual=554078.28, diff=288453.91
+Iter=4, residual=539267.48, diff=288567.81
+Iter=5, residual=532377.72, diff=288528.87
+Iter=6, residual=535490.17, diff=288572.04
+Iter=7, residual=534892.68, diff=288482.42
+Iter=8, residual=536232.67, diff=288620.01
+Iter=9, residual=537565.29, diff=288473.63
+Iter=10, residual=561939.47, diff=288427.77
+Iter=11, residual=546701.02, diff=288406.60
+Iter=12, residual=556001.72, diff=288339.97
+Iter=13, residual=536844.76, diff=288510.48
+Iter=14, residual=534236.44, diff=288413.93
+Iter=15, residual=535894.92, diff=288464.61
+Iter=16, residual=538544.14, diff=288256.07
+Iter=17, residual=539044.46, diff=288347.65
+Iter=18, residual=544538.55, diff=288470.94
+Iter=19, residual=531799.55, diff=288438.49
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.035457 seconds
+WARNING: solution did not converge
+Iteration 6
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=565143.31, diff=288389.46
+Iter=1, residual=556467.28, diff=288508.31
+Iter=2, residual=570970.57, diff=288451.41
+Iter=3, residual=542958.01, diff=288269.12
+Iter=4, residual=564866.23, diff=288270.94
+Iter=5, residual=566126.11, diff=288317.28
+Iter=6, residual=573048.37, diff=288508.16
+Iter=7, residual=572840.81, diff=288647.55
+Iter=8, residual=553920.20, diff=288610.03
+Iter=9, residual=565170.42, diff=288509.68
+Iter=10, residual=551151.10, diff=288706.31
+Iter=11, residual=573666.95, diff=288502.62
+Iter=12, residual=574878.24, diff=288694.19
+Iter=13, residual=569975.19, diff=288536.66
+Iter=14, residual=562311.16, diff=288572.11
+Iter=15, residual=567499.78, diff=288502.35
+Iter=16, residual=571620.28, diff=288712.72
+Iter=17, residual=568592.20, diff=288563.32
+Iter=18, residual=569852.66, diff=288457.25
+Iter=19, residual=570730.08, diff=288400.05
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.025098 seconds
+WARNING: solution did not converge
+Iteration 7
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=575471.56, diff=288621.76
+Iter=1, residual=581746.23, diff=288576.72
+Iter=2, residual=580749.87, diff=288512.29
+Iter=3, residual=579652.26, diff=288588.77
+Iter=4, residual=575414.19, diff=288515.10
+Iter=5, residual=576867.28, diff=288571.26
+Iter=6, residual=581410.33, diff=288508.14
+Iter=7, residual=573857.58, diff=288529.59
+Iter=8, residual=568695.73, diff=287576.65
+Iter=9, residual=569357.03, diff=287805.43
+Iter=10, residual=569798.78, diff=288097.62
+Iter=11, residual=571154.93, diff=287787.75
+Iter=12, residual=571639.66, diff=287607.70
+Iter=13, residual=570539.96, diff=287607.43
+Iter=14, residual=570768.81, diff=287350.25
+Iter=15, residual=570253.81, diff=287443.06
+Iter=16, residual=570952.77, diff=288240.87
+Iter=17, residual=575962.13, diff=288234.95
+Iter=18, residual=564716.97, diff=288144.21
+Iter=19, residual=563279.02, diff=288197.34
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.035848 seconds
+WARNING: solution did not converge
+Iteration 8
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=579948.06, diff=288731.49
+Iter=1, residual=572354.25, diff=287701.11
+Iter=2, residual=555804.26, diff=288543.00
+Iter=3, residual=549923.05, diff=288522.19
+Iter=4, residual=554385.34, diff=288408.62
+Iter=5, residual=552670.08, diff=288543.48
+Iter=6, residual=554852.09, diff=288449.91
+Iter=7, residual=543281.66, diff=288511.26
+Iter=8, residual=550757.00, diff=288455.63
+Iter=9, residual=560073.37, diff=288481.87
+Iter=10, residual=571932.65, diff=288220.50
+Iter=11, residual=555913.72, diff=288516.16
+Iter=12, residual=572113.82, diff=288328.59
+Iter=13, residual=554055.13, diff=288345.63
+Iter=14, residual=561795.62, diff=288400.01
+Iter=15, residual=575756.62, diff=288012.35
+Iter=16, residual=568601.88, diff=287434.15
+Iter=17, residual=569187.21, diff=287530.74
+Iter=18, residual=567060.41, diff=286723.50
+Iter=19, residual=574492.52, diff=288725.13
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.027251 seconds
+WARNING: solution did not converge
+Iteration 9
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=572931.93, diff=288650.09
+Iter=1, residual=576834.35, diff=288621.38
+Iter=2, residual=575550.03, diff=287828.68
+Iter=3, residual=574686.84, diff=287966.84
+Iter=4, residual=576099.50, diff=287966.07
+Iter=5, residual=574338.95, diff=287931.36
+Iter=6, residual=574937.69, diff=287667.29
+Iter=7, residual=569531.36, diff=288317.72
+Iter=8, residual=565582.86, diff=288458.04
+Iter=9, residual=578057.05, diff=288546.96
+Iter=10, residual=579321.81, diff=288504.29
+Iter=11, residual=559522.48, diff=288532.62
+Iter=12, residual=579870.06, diff=288469.99
+Iter=13, residual=575067.74, diff=288426.78
+Iter=14, residual=579077.81, diff=288465.04
+Iter=15, residual=575696.96, diff=288467.92
+Iter=16, residual=577508.73, diff=288443.89
+Iter=17, residual=576295.05, diff=288467.62
+Iter=18, residual=580635.26, diff=288493.46
+Iter=19, residual=579821.23, diff=288421.46
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.027642 seconds
+WARNING: solution did not converge
+Iteration 10
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=554895.49, diff=288219.60
+Iter=1, residual=556883.88, diff=288330.26
+Iter=2, residual=571377.06, diff=288458.69
+Iter=3, residual=565426.44, diff=288392.15
+Iter=4, residual=563453.70, diff=288306.99
+Iter=5, residual=566531.24, diff=288306.25
+Iter=6, residual=547606.53, diff=288451.54
+Iter=7, residual=552386.56, diff=288407.69
+Iter=8, residual=564454.75, diff=288401.68
+Iter=9, residual=566433.34, diff=288378.52
+Iter=10, residual=572819.29, diff=288718.48
+Iter=11, residual=569069.51, diff=288750.85
+Iter=12, residual=577114.25, diff=288593.55
+Iter=13, residual=577678.75, diff=288420.70
+Iter=14, residual=577518.62, diff=288573.25
+Iter=15, residual=576959.98, diff=288343.88
+Iter=16, residual=576901.74, diff=288452.72
+Iter=17, residual=577310.17, diff=288474.06
+Iter=18, residual=576856.85, diff=288292.41
+Iter=19, residual=577197.01, diff=288670.86
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.028250 seconds
+WARNING: solution did not converge
+Iteration 11
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=586785.72, diff=288645.39
+Iter=1, residual=581492.80, diff=288613.87
+Iter=2, residual=580866.60, diff=288592.32
+Iter=3, residual=587368.26, diff=288576.88
+Iter=4, residual=574115.27, diff=288547.03
+Iter=5, residual=574141.05, diff=288485.17
+Iter=6, residual=573597.15, diff=288531.79
+Iter=7, residual=573688.39, diff=288521.58
+Iter=8, residual=567287.92, diff=288281.40
+Iter=9, residual=570064.26, diff=288170.19
+Iter=10, residual=565593.51, diff=287959.28
+Iter=11, residual=566836.95, diff=288043.66
+Iter=12, residual=559090.94, diff=288281.59
+Iter=13, residual=563780.17, diff=288101.10
+Iter=14, residual=568973.19, diff=288125.94
+Iter=15, residual=567394.51, diff=287977.07
+Iter=16, residual=566769.08, diff=288364.68
+Iter=17, residual=573038.40, diff=288175.94
+Iter=18, residual=564020.74, diff=288048.17
+Iter=19, residual=573587.21, diff=288406.23
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.032619 seconds
+WARNING: solution did not converge
+Iteration 12
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=575472.86, diff=287947.06
+Iter=1, residual=575617.45, diff=288333.52
+Iter=2, residual=575163.50, diff=288414.65
+Iter=3, residual=574018.38, diff=287605.28
+Iter=4, residual=574871.38, diff=287964.09
+Iter=5, residual=575106.87, diff=288049.92
+Iter=6, residual=574207.28, diff=288487.04
+Iter=7, residual=557492.32, diff=288929.85
+Iter=8, residual=577812.35, diff=288732.07
+Iter=9, residual=570922.20, diff=288697.35
+Iter=10, residual=562184.84, diff=289141.84
+Iter=11, residual=576612.07, diff=288383.39
+Iter=12, residual=575837.19, diff=288405.47
+Iter=13, residual=575969.01, diff=288448.06
+Iter=14, residual=565776.01, diff=288276.64
+Iter=15, residual=576544.57, diff=288476.59
+Iter=16, residual=570014.46, diff=288452.47
+Iter=17, residual=576228.01, diff=288398.63
+Iter=18, residual=565561.28, diff=288403.20
+Iter=19, residual=575907.95, diff=288431.61
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.025894 seconds
+WARNING: solution did not converge
+Iteration 13
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=541162.81, diff=288648.29
+Iter=1, residual=522775.08, diff=288604.90
+Iter=2, residual=509261.74, diff=288566.05
+Iter=3, residual=517230.54, diff=288570.10
+Iter=4, residual=508336.78, diff=288597.62
+Iter=5, residual=518109.37, diff=288544.34
+Iter=6, residual=569633.39, diff=288500.91
+Iter=7, residual=537794.71, diff=288484.74
+Iter=8, residual=523632.15, diff=288522.58
+Iter=9, residual=561294.20, diff=288413.70
+Iter=10, residual=563541.46, diff=288477.51
+Iter=11, residual=562726.12, diff=288361.95
+Iter=12, residual=537073.56, diff=288387.44
+Iter=13, residual=559030.14, diff=288386.82
+Iter=14, residual=556732.08, diff=288466.14
+Iter=15, residual=559714.66, diff=288394.46
+Iter=16, residual=554309.91, diff=288383.83
+Iter=17, residual=554191.54, diff=288416.23
+Iter=18, residual=556922.89, diff=288462.55
+Iter=19, residual=562474.33, diff=288371.33
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.030701 seconds
+WARNING: solution did not converge
+Iteration 14
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=576087.95, diff=288655.64
+Iter=1, residual=577131.81, diff=288603.02
+Iter=2, residual=576456.84, diff=288590.35
+Iter=3, residual=573232.43, diff=288544.54
+Iter=4, residual=573174.94, diff=288597.07
+Iter=5, residual=574259.93, diff=288604.52
+Iter=6, residual=573078.39, diff=287552.64
+Iter=7, residual=572516.46, diff=287250.47
+Iter=8, residual=573229.57, diff=287185.84
+Iter=9, residual=572503.10, diff=287237.42
+Iter=10, residual=573979.80, diff=287339.57
+Iter=11, residual=571241.82, diff=287119.01
+Iter=12, residual=572071.70, diff=286749.41
+Iter=13, residual=571467.19, diff=287084.88
+Iter=14, residual=571606.73, diff=286803.80
+Iter=15, residual=570922.85, diff=286650.18
+Iter=16, residual=573466.71, diff=287092.16
+Iter=17, residual=559384.99, diff=288244.98
+Iter=18, residual=560915.28, diff=288071.80
+Iter=19, residual=559726.97, diff=288203.25
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.028083 seconds
+WARNING: solution did not converge
+Iteration 15
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=578243.51, diff=288654.35
+Iter=1, residual=579149.32, diff=288589.03
+Iter=2, residual=578387.17, diff=288554.63
+Iter=3, residual=577379.07, diff=288540.56
+Iter=4, residual=570945.29, diff=285966.94
+Iter=5, residual=573236.22, diff=285476.50
+Iter=6, residual=571419.46, diff=285847.98
+Iter=7, residual=577134.88, diff=288470.76
+Iter=8, residual=570205.27, diff=288551.85
+Iter=9, residual=578684.12, diff=288528.90
+Iter=10, residual=577959.54, diff=288544.11
+Iter=11, residual=576879.23, diff=288487.41
+Iter=12, residual=578713.84, diff=288458.40
+Iter=13, residual=575994.87, diff=288521.71
+Iter=14, residual=574136.24, diff=288523.70
+Iter=15, residual=557803.33, diff=288552.42
+Iter=16, residual=561665.97, diff=288210.30
+Iter=17, residual=558090.15, diff=288247.32
+Iter=18, residual=556155.50, diff=288004.05
+Iter=19, residual=573470.49, diff=287835.25
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.028304 seconds
+WARNING: solution did not converge
+OMP_NUM_THREADS=8
+Iteration 1
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=571643.01, diff=287748.79
+Iter=1, residual=573781.30, diff=287220.78
+Iter=2, residual=571122.36, diff=287369.59
+Iter=3, residual=574013.09, diff=287367.56
+Iter=4, residual=573299.39, diff=287957.16
+Iter=5, residual=573614.69, diff=287530.11
+Iter=6, residual=574955.76, diff=287768.79
+Iter=7, residual=576284.14, diff=288352.86
+Iter=8, residual=572419.89, diff=287298.09
+Iter=9, residual=572293.79, diff=287441.95
+Iter=10, residual=571010.75, diff=287528.50
+Iter=11, residual=571033.85, diff=287486.99
+Iter=12, residual=571849.35, diff=287225.64
+Iter=13, residual=573752.66, diff=288182.93
+Iter=14, residual=573574.43, diff=286885.62
+Iter=15, residual=572948.39, diff=286940.46
+Iter=16, residual=569705.33, diff=286743.50
+Iter=17, residual=569075.36, diff=287812.53
+Iter=18, residual=571783.44, diff=286559.76
+Iter=19, residual=571427.95, diff=287485.86
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.022099 seconds
+WARNING: solution did not converge
+Iteration 2
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=569576.55, diff=288142.44
+Iter=1, residual=570114.95, diff=288157.58
+Iter=2, residual=569416.07, diff=287640.24
+Iter=3, residual=570741.07, diff=288032.27
+Iter=4, residual=570805.70, diff=287666.02
+Iter=5, residual=569740.21, diff=287687.39
+Iter=6, residual=571534.76, diff=287930.27
+Iter=7, residual=569817.72, diff=287742.22
+Iter=8, residual=570497.79, diff=288054.17
+Iter=9, residual=570410.20, diff=287809.67
+Iter=10, residual=569572.68, diff=287533.46
+Iter=11, residual=571854.10, diff=287946.78
+Iter=12, residual=568402.20, diff=287807.89
+Iter=13, residual=571364.48, diff=286988.23
+Iter=14, residual=567838.12, diff=287491.31
+Iter=15, residual=570376.03, diff=287406.90
+Iter=16, residual=573518.91, diff=287512.37
+Iter=17, residual=570216.39, diff=287673.83
+Iter=18, residual=571274.01, diff=287079.73
+Iter=19, residual=568934.12, diff=287035.64
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.018365 seconds
+WARNING: solution did not converge
+Iteration 3
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=569069.13, diff=288242.92
+Iter=1, residual=566499.06, diff=288334.08
+Iter=2, residual=567933.19, diff=288288.62
+Iter=3, residual=564851.58, diff=288517.33
+Iter=4, residual=566347.57, diff=288262.39
+Iter=5, residual=568378.19, diff=288216.84
+Iter=6, residual=569926.42, diff=288396.63
+Iter=7, residual=560765.96, diff=288147.95
+Iter=8, residual=569063.55, diff=288449.85
+Iter=9, residual=572510.72, diff=288252.00
+Iter=10, residual=562777.25, diff=288302.73
+Iter=11, residual=559840.75, diff=288382.29
+Iter=12, residual=567426.82, diff=288191.21
+Iter=13, residual=565563.98, diff=287939.37
+Iter=14, residual=569664.85, diff=288343.74
+Iter=15, residual=567135.66, diff=288150.04
+Iter=16, residual=569941.62, diff=288172.43
+Iter=17, residual=568311.97, diff=288215.37
+Iter=18, residual=564964.62, diff=288112.79
+Iter=19, residual=565856.49, diff=288264.73
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.024086 seconds
+WARNING: solution did not converge
+Iteration 4
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=573631.57, diff=288035.87
+Iter=1, residual=574506.13, diff=287942.43
+Iter=2, residual=573215.73, diff=286934.12
+Iter=3, residual=574677.88, diff=287500.90
+Iter=4, residual=573478.34, diff=287002.51
+Iter=5, residual=576155.70, diff=287853.33
+Iter=6, residual=574746.03, diff=287893.65
+Iter=7, residual=575604.03, diff=288270.47
+Iter=8, residual=572222.64, diff=287363.17
+Iter=9, residual=571886.34, diff=287258.94
+Iter=10, residual=571557.79, diff=286764.30
+Iter=11, residual=572508.15, diff=287158.76
+Iter=12, residual=574758.64, diff=287840.63
+Iter=13, residual=574838.43, diff=288163.29
+Iter=14, residual=575863.72, diff=287833.73
+Iter=15, residual=575931.71, diff=288170.74
+Iter=16, residual=572137.42, diff=287808.38
+Iter=17, residual=573024.59, diff=287534.33
+Iter=18, residual=573317.36, diff=287472.74
+Iter=19, residual=573587.63, diff=287391.52
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.021808 seconds
+WARNING: solution did not converge
+Iteration 5
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=572234.14, diff=286851.17
+Iter=1, residual=571637.22, diff=287162.88
+Iter=2, residual=574191.29, diff=287997.84
+Iter=3, residual=571871.05, diff=287438.70
+Iter=4, residual=575583.76, diff=288072.71
+Iter=5, residual=574064.78, diff=287676.75
+Iter=6, residual=571494.09, diff=286687.43
+Iter=7, residual=574751.43, diff=287954.09
+Iter=8, residual=572135.53, diff=286863.03
+Iter=9, residual=572403.60, diff=286771.03
+Iter=10, residual=573255.34, diff=287507.34
+Iter=11, residual=573372.90, diff=287643.15
+Iter=12, residual=572887.07, diff=286515.12
+Iter=13, residual=572652.39, diff=287215.80
+Iter=14, residual=572590.08, diff=286829.21
+Iter=15, residual=571893.87, diff=287478.19
+Iter=16, residual=574781.46, diff=287819.97
+Iter=17, residual=573130.03, diff=287136.42
+Iter=18, residual=572258.62, diff=287185.92
+Iter=19, residual=576345.33, diff=288149.56
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.024521 seconds
+WARNING: solution did not converge
+Iteration 6
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=559018.60, diff=288616.38
+Iter=1, residual=571855.99, diff=288476.52
+Iter=2, residual=571439.60, diff=288486.10
+Iter=3, residual=571241.66, diff=288339.77
+Iter=4, residual=569986.18, diff=288279.92
+Iter=5, residual=555832.92, diff=288481.72
+Iter=6, residual=553554.91, diff=288432.03
+Iter=7, residual=561891.75, diff=288423.91
+Iter=8, residual=556265.84, diff=288319.11
+Iter=9, residual=564896.03, diff=288571.44
+Iter=10, residual=556433.17, diff=288419.24
+Iter=11, residual=559172.92, diff=288432.42
+Iter=12, residual=555799.74, diff=288439.31
+Iter=13, residual=557101.60, diff=288502.99
+Iter=14, residual=555382.62, diff=288279.06
+Iter=15, residual=557581.66, diff=288389.55
+Iter=16, residual=558354.27, diff=288419.85
+Iter=17, residual=573375.50, diff=288389.85
+Iter=18, residual=568990.29, diff=288663.78
+Iter=19, residual=577035.05, diff=288464.22
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.022082 seconds
+WARNING: solution did not converge
+Iteration 7
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=574501.00, diff=288073.66
+Iter=1, residual=571408.84, diff=287563.68
+Iter=2, residual=571357.95, diff=286708.28
+Iter=3, residual=572491.65, diff=287206.66
+Iter=4, residual=570829.80, diff=287095.10
+Iter=5, residual=574044.06, diff=287916.81
+Iter=6, residual=574200.04, diff=287293.97
+Iter=7, residual=574036.54, diff=287555.00
+Iter=8, residual=573385.76, diff=287647.30
+Iter=9, residual=572721.52, diff=287609.76
+Iter=10, residual=573573.79, diff=287298.80
+Iter=11, residual=572214.16, diff=287486.90
+Iter=12, residual=574160.81, diff=287411.10
+Iter=13, residual=572986.45, diff=287553.71
+Iter=14, residual=572734.00, diff=287437.97
+Iter=15, residual=572925.13, diff=287420.50
+Iter=16, residual=572829.45, diff=287461.58
+Iter=17, residual=573108.72, diff=287123.22
+Iter=18, residual=572634.14, diff=287242.77
+Iter=19, residual=573671.80, diff=287513.80
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.020466 seconds
+WARNING: solution did not converge
+Iteration 8
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=573492.51, diff=287508.96
+Iter=1, residual=574490.06, diff=287734.80
+Iter=2, residual=572938.36, diff=287606.22
+Iter=3, residual=574610.70, diff=287576.66
+Iter=4, residual=567671.10, diff=287619.83
+Iter=5, residual=573206.23, diff=287761.46
+Iter=6, residual=574214.24, diff=287023.67
+Iter=7, residual=571657.17, diff=286664.86
+Iter=8, residual=572724.64, diff=286735.88
+Iter=9, residual=570259.57, diff=286573.94
+Iter=10, residual=574734.89, diff=287268.86
+Iter=11, residual=570451.02, diff=287391.15
+Iter=12, residual=570497.49, diff=286895.71
+Iter=13, residual=570691.51, diff=287192.20
+Iter=14, residual=571676.37, diff=287155.28
+Iter=15, residual=572048.68, diff=287372.17
+Iter=16, residual=571209.42, diff=287224.35
+Iter=17, residual=572685.23, diff=286840.93
+Iter=18, residual=572697.80, diff=286597.51
+Iter=19, residual=571665.93, diff=287468.14
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.019180 seconds
+WARNING: solution did not converge
+Iteration 9
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=571913.63, diff=287898.38
+Iter=1, residual=571824.63, diff=287841.51
+Iter=2, residual=572725.02, diff=288023.84
+Iter=3, residual=572486.62, diff=287475.69
+Iter=4, residual=574654.01, diff=288143.15
+Iter=5, residual=571586.41, diff=287723.36
+Iter=6, residual=571658.02, diff=287919.83
+Iter=7, residual=573139.21, diff=287866.63
+Iter=8, residual=572257.82, diff=288121.79
+Iter=9, residual=571984.77, diff=288046.89
+Iter=10, residual=570585.01, diff=287789.49
+Iter=11, residual=574338.91, diff=287871.74
+Iter=12, residual=571276.15, diff=287956.46
+Iter=13, residual=572094.21, diff=288136.09
+Iter=14, residual=572052.82, diff=288111.41
+Iter=15, residual=573850.71, diff=288122.03
+Iter=16, residual=573664.37, diff=287317.49
+Iter=17, residual=571862.07, diff=287181.61
+Iter=18, residual=572084.16, diff=287468.33
+Iter=19, residual=573703.46, diff=287482.16
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.018761 seconds
+WARNING: solution did not converge
+Iteration 10
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=573476.89, diff=287778.28
+Iter=1, residual=573531.81, diff=287374.06
+Iter=2, residual=572308.89, diff=286779.54
+Iter=3, residual=572973.48, diff=287316.77
+Iter=4, residual=573380.86, diff=287096.96
+Iter=5, residual=574334.52, diff=287249.91
+Iter=6, residual=574762.16, diff=287415.26
+Iter=7, residual=570357.77, diff=287381.00
+Iter=8, residual=570795.50, diff=287627.05
+Iter=9, residual=570832.40, diff=287107.41
+Iter=10, residual=571096.25, diff=286845.19
+Iter=11, residual=569951.40, diff=286606.09
+Iter=12, residual=569997.77, diff=286799.10
+Iter=13, residual=570986.60, diff=287010.29
+Iter=14, residual=571912.14, diff=287041.46
+Iter=15, residual=569654.76, diff=286936.82
+Iter=16, residual=570779.64, diff=287186.49
+Iter=17, residual=570766.05, diff=286672.22
+Iter=18, residual=572239.51, diff=286883.47
+Iter=19, residual=572013.07, diff=286681.72
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.018337 seconds
+WARNING: solution did not converge
+Iteration 11
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=558715.46, diff=288514.66
+Iter=1, residual=558613.15, diff=288401.11
+Iter=2, residual=563223.53, diff=288403.39
+Iter=3, residual=560837.39, diff=288346.51
+Iter=4, residual=561773.16, diff=288273.74
+Iter=5, residual=565282.46, diff=288096.71
+Iter=6, residual=565476.40, diff=288021.21
+Iter=7, residual=569324.89, diff=288177.97
+Iter=8, residual=568248.87, diff=288336.24
+Iter=9, residual=568034.33, diff=288387.90
+Iter=10, residual=571828.40, diff=288294.14
+Iter=11, residual=570975.12, diff=288289.06
+Iter=12, residual=567961.92, diff=288348.93
+Iter=13, residual=571137.41, diff=288246.67
+Iter=14, residual=569289.92, diff=288355.45
+Iter=15, residual=571096.95, diff=288387.86
+Iter=16, residual=568478.95, diff=288256.90
+Iter=17, residual=569618.31, diff=288050.11
+Iter=18, residual=570391.16, diff=288307.46
+Iter=19, residual=571300.97, diff=288411.98
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.022408 seconds
+WARNING: solution did not converge
+Iteration 12
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=572686.39, diff=287798.47
+Iter=1, residual=571900.17, diff=287274.36
+Iter=2, residual=573457.14, diff=287155.84
+Iter=3, residual=573365.23, diff=287578.81
+Iter=4, residual=574639.48, diff=287687.60
+Iter=5, residual=571588.09, diff=287735.97
+Iter=6, residual=572140.26, diff=287421.57
+Iter=7, residual=570231.89, diff=286865.04
+Iter=8, residual=571153.97, diff=286874.14
+Iter=9, residual=570748.76, diff=287368.08
+Iter=10, residual=571655.94, diff=286976.24
+Iter=11, residual=570645.76, diff=286586.11
+Iter=12, residual=571501.35, diff=286370.40
+Iter=13, residual=570661.74, diff=287100.59
+Iter=14, residual=571053.79, diff=286627.86
+Iter=15, residual=572214.56, diff=287011.72
+Iter=16, residual=571012.92, diff=287157.53
+Iter=17, residual=571212.65, diff=286288.09
+Iter=18, residual=570312.89, diff=287096.51
+Iter=19, residual=571304.62, diff=286715.30
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.019474 seconds
+WARNING: solution did not converge
+Iteration 13
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=571844.13, diff=287125.49
+Iter=1, residual=573290.45, diff=287321.22
+Iter=2, residual=570714.92, diff=287263.64
+Iter=3, residual=571532.64, diff=287152.88
+Iter=4, residual=572358.52, diff=287088.08
+Iter=5, residual=571608.64, diff=287249.76
+Iter=6, residual=571240.25, diff=287144.14
+Iter=7, residual=573188.88, diff=286993.79
+Iter=8, residual=571385.26, diff=287392.43
+Iter=9, residual=571259.09, diff=287174.74
+Iter=10, residual=573887.60, diff=287717.50
+Iter=11, residual=571200.16, diff=287165.81
+Iter=12, residual=571981.09, diff=286968.74
+Iter=13, residual=571457.18, diff=287102.92
+Iter=14, residual=570681.04, diff=287205.55
+Iter=15, residual=572256.48, diff=287035.06
+Iter=16, residual=571009.99, diff=286905.81
+Iter=17, residual=572519.44, diff=287521.60
+Iter=18, residual=573171.13, diff=286979.92
+Iter=19, residual=572488.97, diff=286717.12
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.017787 seconds
+WARNING: solution did not converge
+Iteration 14
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=574857.40, diff=287960.45
+Iter=1, residual=574624.22, diff=287853.19
+Iter=2, residual=574388.13, diff=287912.78
+Iter=3, residual=575567.76, diff=287730.74
+Iter=4, residual=575383.66, diff=288000.11
+Iter=5, residual=572769.15, diff=287590.42
+Iter=6, residual=572523.24, diff=287080.07
+Iter=7, residual=576123.68, diff=288282.37
+Iter=8, residual=568404.46, diff=286897.51
+Iter=9, residual=569108.41, diff=287323.45
+Iter=10, residual=575780.10, diff=288239.37
+Iter=11, residual=570599.03, diff=287475.43
+Iter=12, residual=572490.69, diff=287593.43
+Iter=13, residual=569649.01, diff=287216.70
+Iter=14, residual=570505.88, diff=287312.63
+Iter=15, residual=570901.70, diff=287019.33
+Iter=16, residual=571516.71, diff=287473.84
+Iter=17, residual=571166.59, diff=287424.29
+Iter=18, residual=571233.99, diff=287524.46
+Iter=19, residual=571707.12, diff=287448.06
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.018361 seconds
+WARNING: solution did not converge
+Iteration 15
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=572268.96, diff=286898.06
+Iter=1, residual=571737.27, diff=287446.88
+Iter=2, residual=570908.29, diff=287456.77
+Iter=3, residual=571791.75, diff=287070.40
+Iter=4, residual=570685.67, diff=287022.10
+Iter=5, residual=570996.24, diff=287102.21
+Iter=6, residual=570594.88, diff=287964.17
+Iter=7, residual=570929.32, diff=287758.63
+Iter=8, residual=574705.15, diff=288387.80
+Iter=9, residual=574513.61, diff=287630.42
+Iter=10, residual=570800.10, diff=287023.82
+Iter=11, residual=567435.08, diff=287127.93
+Iter=12, residual=572506.75, diff=287199.20
+Iter=13, residual=568516.41, diff=286577.93
+Iter=14, residual=569115.12, diff=286700.19
+Iter=15, residual=573152.07, diff=287741.85
+Iter=16, residual=575897.55, diff=288054.40
+Iter=17, residual=572490.70, diff=287095.37
+Iter=18, residual=575127.45, diff=287706.67
+Iter=19, residual=575771.28, diff=287814.50
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.019640 seconds
+WARNING: solution did not converge
+OMP_NUM_THREADS=16
+Iteration 1
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577163.47, diff=288600.34
+Iter=2, residual=577157.33, diff=288589.33
+Iter=3, residual=577215.93, diff=288580.12
+Iter=4, residual=577171.09, diff=288546.84
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288549.72
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288422.34
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.055670 seconds
+WARNING: solution did not converge
+Iteration 2
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=575689.07, diff=288583.13
+Iter=4, residual=577082.16, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577067.27, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288529.51
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288513.64
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576991.40, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.050716 seconds
+WARNING: solution did not converge
+Iteration 3
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288606.31
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.14
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577091.65, diff=288559.56
+Iter=6, residual=576886.53, diff=288548.11
+Iter=7, residual=577018.69, diff=288517.60
+Iter=8, residual=577053.12, diff=288513.84
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577036.98, diff=288526.03
+Iter=11, residual=576940.11, diff=288477.51
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576983.15, diff=288449.11
+Iter=14, residual=576982.92, diff=288490.71
+Iter=15, residual=576994.80, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288439.89
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.050025 seconds
+WARNING: solution did not converge
+Iteration 4
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577733.85, diff=288615.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288585.54
+Iter=6, residual=576937.42, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577046.64, diff=288540.85
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288538.78
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=572249.85, diff=288456.12
+Iter=15, residual=577182.96, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288482.33
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.050865 seconds
+WARNING: solution did not converge
+Iteration 5
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288644.63
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577165.58, diff=288592.62
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576964.38, diff=288393.00
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288538.63
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.056203 seconds
+WARNING: solution did not converge
+Iteration 6
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577002.85, diff=288600.08
+Iter=3, residual=577160.88, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=576817.16, diff=288517.45
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576960.18, diff=288508.73
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576953.61, diff=288481.17
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576905.44, diff=288456.15
+Iter=19, residual=576685.05, diff=288462.40
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.050214 seconds
+WARNING: solution did not converge
+Iteration 7
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=576970.44, diff=288644.66
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577131.98, diff=288602.06
+Iter=3, residual=577148.99, diff=288610.70
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=576939.85, diff=288494.44
+Iter=12, residual=576950.36, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576658.11, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576882.26, diff=288458.94
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576534.69, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.051757 seconds
+WARNING: solution did not converge
+Iteration 8
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577015.22, diff=288479.62
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577092.13, diff=288547.80
+Iter=6, residual=577099.30, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577069.64, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288473.30
+Iter=17, residual=576932.83, diff=288432.41
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.049799 seconds
+WARNING: solution did not converge
+Iteration 9
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=574793.99, diff=288204.02
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=576698.14, diff=288530.57
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577099.54, diff=288534.83
+Iter=9, residual=577048.64, diff=288520.79
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=577001.02, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576896.90, diff=288452.99
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.052988 seconds
+WARNING: solution did not converge
+Iteration 10
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=575947.95, diff=288621.73
+Iter=4, residual=577175.48, diff=288549.85
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=576910.47, diff=288549.13
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288606.58
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=577017.72, diff=288511.50
+Iter=13, residual=576967.96, diff=288497.30
+Iter=14, residual=576924.66, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.055408 seconds
+WARNING: solution did not converge
+Iteration 11
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577121.64, diff=288596.00
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=569455.58, diff=288543.61
+Iter=8, residual=577045.25, diff=288534.89
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=576936.24, diff=288518.73
+Iter=11, residual=574636.08, diff=288452.19
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=572749.58, diff=288437.84
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576278.59, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=573828.23, diff=288497.48
+Iter=18, residual=576868.30, diff=288450.48
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.052266 seconds
+WARNING: solution did not converge
+Iteration 12
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=576644.22, diff=288556.05
+Iter=8, residual=576079.90, diff=288516.68
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577018.19, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576941.20, diff=288483.54
+Iter=14, residual=576980.99, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=577001.45, diff=288457.58
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.055556 seconds
+WARNING: solution did not converge
+Iteration 13
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=576900.91, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577102.92, diff=288559.06
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577026.58, diff=288535.69
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=574576.27, diff=288449.88
+Iter=12, residual=576960.77, diff=288427.35
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576981.16, diff=288487.92
+Iter=15, residual=576962.22, diff=288488.33
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.055330 seconds
+WARNING: solution did not converge
+Iteration 14
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577268.53, diff=288631.74
+Iter=2, residual=577195.12, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577194.50, diff=288563.88
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288546.03
+Iter=10, residual=576948.22, diff=288282.02
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576980.95, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=578107.37, diff=288425.05
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576018.48, diff=288455.08
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.050766 seconds
+WARNING: solution did not converge
+Iteration 15
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=575252.86, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577040.81, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288525.10
+Iter=11, residual=577041.36, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288513.16
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288497.97
+Iter=17, residual=576951.32, diff=288495.83
+Iter=18, residual=576867.35, diff=288439.38
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.049001 seconds
+WARNING: solution did not converge
+OMP_NUM_THREADS=32
+Iteration 1
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=574047.55, diff=288619.01
+Iter=3, residual=577139.22, diff=288582.35
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288536.06
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288525.25
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288480.75
+Iter=13, residual=576981.42, diff=288476.03
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288518.47
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.086122 seconds
+WARNING: solution did not converge
+Iteration 2
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577011.65, diff=288509.62
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576890.49, diff=288444.26
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.085034 seconds
+WARNING: solution did not converge
+Iteration 3
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577177.62, diff=288587.18
+Iter=4, residual=577034.26, diff=288535.81
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.50
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576987.74, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.088155 seconds
+WARNING: solution did not converge
+Iteration 4
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577208.26, diff=288621.01
+Iter=2, residual=577174.89, diff=288592.53
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576920.17, diff=288466.42
+Iter=19, residual=576915.71, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.099856 seconds
+WARNING: solution did not converge
+Iteration 5
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577061.52, diff=288543.03
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576996.93, diff=288504.39
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.083100 seconds
+WARNING: solution did not converge
+Iteration 6
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577145.01, diff=288601.92
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=576916.70, diff=288526.62
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577052.79, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=577031.68, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.07
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.46
+Iter=19, residual=576982.82, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.086101 seconds
+WARNING: solution did not converge
+Iteration 7
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577028.51, diff=288535.86
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=576959.83, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576984.75, diff=288505.76
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576976.23, diff=288498.82
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288490.32
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.084353 seconds
+WARNING: solution did not converge
+Iteration 8
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.085426 seconds
+WARNING: solution did not converge
+Iteration 9
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576955.93, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.084949 seconds
+WARNING: solution did not converge
+Iteration 10
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577073.44, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576851.45, diff=288391.93
+Iter=14, residual=576804.93, diff=288471.10
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576861.20, diff=288455.48
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.102050 seconds
+WARNING: solution did not converge
+Iteration 11
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577284.23, diff=288648.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577838.91, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.086660 seconds
+WARNING: solution did not converge
+Iteration 12
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288649.01
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=576919.58, diff=288518.65
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=577011.74, diff=288495.42
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576920.24, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.084901 seconds
+WARNING: solution did not converge
+Iteration 13
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577150.38, diff=288563.58
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577043.80, diff=288543.57
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577070.07, diff=288494.66
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576458.48, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.086491 seconds
+WARNING: solution did not converge
+Iteration 14
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577002.21, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288510.05
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.086944 seconds
+WARNING: solution did not converge
+Iteration 15
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577196.94, diff=288631.16
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=576972.38, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576735.08, diff=288496.79
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288486.32
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.097449 seconds
+WARNING: solution did not converge
+OMP_NUM_THREADS=64
+Iteration 1
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=575981.60, diff=288532.14
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577014.23, diff=288524.79
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.22
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.159522 seconds
+WARNING: solution did not converge
+Iteration 2
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577067.37, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576903.12, diff=288458.89
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.158966 seconds
+WARNING: solution did not converge
+Iteration 3
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577222.41, diff=288648.14
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576920.12, diff=288466.78
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.160580 seconds
+WARNING: solution did not converge
+Iteration 4
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577080.96, diff=288548.94
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.159506 seconds
+WARNING: solution did not converge
+Iteration 5
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288485.52
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.166017 seconds
+WARNING: solution did not converge
+Iteration 6
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.96
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288508.79
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288494.27
+Iter=17, residual=576621.62, diff=288477.07
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.157178 seconds
+WARNING: solution did not converge
+Iteration 7
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577108.42, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.84
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.158704 seconds
+WARNING: solution did not converge
+Iteration 8
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.157327 seconds
+WARNING: solution did not converge
+Iteration 9
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=577292.04, diff=288468.07
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.160294 seconds
+WARNING: solution did not converge
+Iteration 10
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577250.73, diff=288609.48
+Iter=2, residual=577134.74, diff=288612.01
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577039.45, diff=288555.66
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.31
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576944.69, diff=288480.93
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.159868 seconds
+WARNING: solution did not converge
+Iteration 11
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577067.04, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=577005.82, diff=288496.09
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.157597 seconds
+WARNING: solution did not converge
+Iteration 12
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577142.83, diff=288590.29
+Iter=4, residual=577127.62, diff=288573.34
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577110.08, diff=288514.45
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577010.13, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576952.60, diff=288449.18
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.170543 seconds
+WARNING: solution did not converge
+Iteration 13
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577243.58, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.17
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576939.77, diff=288485.02
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.157741 seconds
+WARNING: solution did not converge
+Iteration 14
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577121.71, diff=288563.25
+Iter=6, residual=577087.23, diff=288553.03
+Iter=7, residual=577069.66, diff=288525.86
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577022.55, diff=288518.73
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576956.37, diff=288484.34
+Iter=16, residual=576948.60, diff=288475.83
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.160961 seconds
+WARNING: solution did not converge
+Iteration 15
+Matrix size:            10000x10000
+Maximum iterations:     20
+Convergence threshold:  0.000100
+Iter=0, residual=577242.02, diff=288653.48
+Iter=1, residual=577204.13, diff=288621.01
+Iter=2, residual=577174.36, diff=288602.06
+Iter=3, residual=577148.99, diff=288587.18
+Iter=4, residual=577126.49, diff=288574.49
+Iter=5, residual=577106.07, diff=288563.25
+Iter=6, residual=577087.23, diff=288559.82
+Iter=7, residual=577069.66, diff=288543.61
+Iter=8, residual=577053.12, diff=288534.83
+Iter=9, residual=577037.46, diff=288526.56
+Iter=10, residual=577023.53, diff=288491.31
+Iter=11, residual=577008.29, diff=288511.27
+Iter=12, residual=576994.60, diff=288504.14
+Iter=13, residual=576981.42, diff=288497.30
+Iter=14, residual=576968.69, diff=288490.71
+Iter=15, residual=576965.66, diff=288484.34
+Iter=16, residual=576944.43, diff=288478.19
+Iter=17, residual=576932.83, diff=288472.22
+Iter=18, residual=576921.55, diff=288466.42
+Iter=19, residual=576910.55, diff=288460.77
+Solution error = 576910.550892
+Iterations     = 20
+Solver runtime = 0.159111 seconds
+WARNING: solution did not converge
+Done

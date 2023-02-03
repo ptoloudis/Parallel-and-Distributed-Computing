@@ -1,8 +1,12 @@
 #!/bin/bash
 
 echo "Assignment 3" && >&2 echo "Assignment 3" 
-echo "Askisi 2" && >&2 echo "Askisi 2"
+echo "Run: Make" && >&2 echo "Run: Make"
+make
 
+echo "Run: Generate Data" && >&2 echo "Run: Generate Data"
+
+echo "Askisi 2" && >&2 echo "Askisi 2"
 for i in {1..25}
 do
     echo "Iteration $i" && >&2 echo "Iteration $i"
@@ -37,6 +41,18 @@ do
         ./askisi_3 800 800 64000 <data/800_800_64000.txt 
         ./askisi_3 900 900 81000 <data/900_900_81000.txt
         ./askisi_3 1000 1000 100000 <data/1000_1000_100000.txt 
+    done
+done
+
+echo "Askisi 4" && >&2 echo "Askisi 4"
+for j in {1,2,4,8,16,32,64}
+do
+    export OMP_NUM_THREADS=$j
+    echo "OMP_NUM_THREADS=$j" && >&2 echo "OMP_NUM_THREADS=$j"
+    for i in {1..15}
+    do
+        echo "Iteration $i" && >&2 echo "Iteration $i"
+        ./askisi_4 
     done
 done
 
